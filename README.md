@@ -1,4 +1,4 @@
-# Empada Praiana_Site
+# Site Empada Praiana
 Site da Empada Praiana sobre Franquias criado no início de 2020.
 Para o desenvolvimento desse site foi utilizado o framework css "Bootstrap".
 * Todos os direitos reservados. O autor permite apenas a visualização do código, sendo proibida qualquer utilização do mesmo, no todo ou em parte.
