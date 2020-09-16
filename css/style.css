@@ -1,0 +1,315 @@
+body{
+  margin:0;
+  padding:0; 
+  
+}
+
+a:hover{
+  -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      text-shadow: 1px 0px 20px yellow;
+      -webkit-transition: width 0.3s; /*Safari & Chrome*/
+      transition: width 0.3s;
+      -moz-transition: width 0.3s; /* Firefox 4 */
+      -o-transition: width 0.3s; /* Opera */
+
+}
+
+@font-face {
+  font-family: 'Viner-hand';
+  src: url("viner-hand-itc.ttf") format('truetype');
+}
+
+h1{
+  font-family: Viner-hand;
+  font-size: 54px;
+  
+  font-weight: bold;
+  color: white;
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em,
+  0 2px 0 #c9c9c9,
+0 3px 0 #bbb,
+0 4px 0 #b9b9b9,
+0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),
+0 0 5px rgba(0,0,0,.1),
+0 1px 3px rgba(0,0,0,.3),
+0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.15);
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+}
+
+.botao{
+  float: right;
+  
+  padding: 3px 0px 0px 22px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+  
+}
+
+.botoes-lojas{
+  
+  float: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  
+}
+
+
+.header-site{
+ 
+ background-image: url(imagens-css/fundo.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+  background-color: rgb(116, 0, 0);
+ 
+}
+
+/* ANIMAÇÕES*/
+
+.imagem-principal{
+  
+  animation-duration: 5s;
+  animation-delay: 0s;
+  
+  animation-iteration-count: initial;
+}
+
+.animadois{
+  animation-delay: 1s;
+  animation-duration: 10s;
+ animation-iteration-count: initial;
+
+}
+
+.animasejafran{
+  animation-delay: 1s;
+  animation-duration: 10s;
+ animation-iteration-count: initial;
+}
+
+.animamidia{
+  animation-delay: 1s;
+  animation-duration: 10s;
+ animation-iteration-count: initial;
+}
+
+
+.animabotfran{
+  animation-delay: 1s;
+  animation-duration: 10s;
+ animation-iteration-count: infinite;
+
+}
+
+
+/*FIM ANIMAÇÕES*/
+.logo_header {
+
+  animation-duration: 5s;
+  animation-delay: 3s;
+  
+  animation-iteration-count: infinite;
+
+}
+
+nav { 
+    min-height: 50px;
+    margin-bottom: 0 !important;
+    padding-bottom: 100px ;
+  }
+
+  
+ .imagem-icon{
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  
+}
+
+.imagem2-icon{
+  float: left;
+  border: transparent thin solid;
+  padding: 1px;
+  margin: 0px 3px 3px 0;
+  
+}
+
+.seta-icon{
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  
+}
+
+
+
+
+
+
+     
+.middle{
+   padding: 50px;
+   background:linear-gradient(#740000, rgb(187, 36, 25) );
+}
+
+.sec-meio{
+
+  background:linear-gradient( rgb(187, 36, 25), #740000);
+  
+}
+#meio { 
+    padding: 50px;
+    
+    
+
+ }
+
+ 
+.sec-titulo{
+  background-image: url(imagens-css/areia.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  padding-top: 100px;
+  padding-bottom: 0px;
+  
+  
+}
+
+ #titu-form{
+  background:linear-gradient( rgb(187, 36, 25), #740000);
+  padding: 50px;
+ }
+
+ .sec-form{
+  background-image: url(imagens-css/areia.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  padding-top: 0px;
+  padding-bottom: 100px;
+  
+ }
+
+#formulario-div{
+  background-color: rgba(178,34,34,0.8);
+  color: rgb(0, 0, 0);
+  text-shadow: white 0.1em 0.1em 0.2em;
+  font-weight: bold;
+  
+
+  width: 100%;
+
+  background-position: center top;
+  padding: 50px 50px 50px 50px;
+ 
+ 
+}
+
+ 
+.sec-principal{
+  background-image: url(imagens-css/areia.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ 
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+ #principal{
+  background-color: rgba(178,34,34,0.5); 
+  width: 100%;
+
+  background-position: center top;
+  padding: 50px 50px 50px 50px;
+	 /* "min" faz a altura aumentar de acordo com conteudo*/
+
+	/*float: right; força a div ficar do lado*/
+}
+
+#uberfood{
+  background-color: rgba(172, 10, 10, 0.9); 
+  width: 100%;
+
+  background-position: center top;
+  padding: 50px 50px 50px 50px;
+}
+
+
+
+.sec-midia{
+  background: linear-gradient( rgb(187, 36, 25), #740000);
+}
+  
+#midia{
+ padding: 50px;
+ 
+}
+.contmidia{
+  float:left;
+}
+
+.centrop{
+  float: left;
+ }
+#video{
+  padding-top: 10px;
+}
+ 
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  
+
+
+.sec-footer{
+  background: linear-gradient( #f5b880,#ae120e,#93190b)	;
+    /* min-height: 70px;*/
+    height: 70px;
+     color:#ffffff;
+     padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer{
+  align-items:center;
+
+}
+
+
+/*CLASSES REDES Sociais*/
+
+.icone-whatsapp{
+  padding: 0 5px 0 2px;
+}
+
+.icone-instragram{
+  padding: 0 5px 0 2px;
+}
+
+.icone-facebook{
+  padding: 0 5px 0 5px;
+}
